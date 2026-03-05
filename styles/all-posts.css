@@ -1,0 +1,55 @@
+.yellow{
+    background-color: rgba(105, 143, 50, 0.3);
+    border:8px groove rgba(105, 143, 50, 0.5);
+    color: rgb(160, 160, 160);
+    font-family:'Courier New';
+    font-size:130%;
+    margin-top:2%;
+    margin-left:15%;
+    margin-right:15%;
+    padding:1%;
+}
+.matcha{
+    background-color: rgba(70, 130, 50, 0.3);
+    border:8px groove rgba(70, 130, 50, 0.5);
+    color: rgb(160, 160, 160);
+    font-family:'Courier New';
+    font-size:130%;
+    margin-top:2%;
+    margin-left:15%;
+    margin-right:15%;
+    padding:1%;
+}
+.green{
+    background-color: rgba(50, 124, 70, 0.3);
+    border:8px groove rgba(50, 124, 70, 0.5);
+    color: rgb(160, 160, 160);
+    font-family:'Courier New';
+    font-size:130%;
+    margin-top:2%;
+    margin-left:15%;
+    margin-right:15%;
+    padding:1%;
+}
+.teal{
+    background-color: rgba(50, 111, 90, 0.3);
+    border:8px groove rgba(50, 111, 90, 0.5);
+    color: rgb(160, 160, 160);
+    font-family:'Courier New';
+    font-size:130%;
+    margin-top:2%;
+    margin-left:15%;
+    margin-right:15%;
+    padding:1%;
+}
+.cyan{
+    background-color: rgba(50, 95, 108, 0.3);
+    border:8px groove rgba(50, 95, 108, 0.5);
+    color: rgb(160, 160, 160);
+    font-family:'Courier New';
+    font-size:130%;
+    margin-top:2%;
+    margin-left:15%;
+    margin-right:15%;
+    padding:1%;
+}
