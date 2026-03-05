@@ -1,30 +1,37 @@
 body{
-  background:rgb(12, 12, 12);
+    background:rgb(12, 12, 12);
 }
 #logo{
     font-size:160%;
     height:60px;
+    display: inline;
+}
+#logo p{
+    color: rgb(180, 180, 180);
+    padding:2%; 
+    display: inline;
+    font-size:80%;
 }
 h1{
     text-shadow:
--15px 0 5px rgba(0, 100, 100, .8),
--21px 0 5px rgba(40, 120, 0, .8),
--28px 0 5px rgba(130, 150, 0, .8);
+-15px 0 5px rgba(0, 95, 112,.9),
+-21px 0 5px rgba(0, 120, 10, .9),
+-28px 0 5px rgba(130, 150, 0, .9);
     color: rgb(180, 180, 180);
     letter-spacing: 2px;
     font-size:160%;
     font-family:'Courier New';
     margin-left: 6%;
-    padding-top: 1%;
+    display: inline-flex;
 }
-#top-bar{
+.top-bar{
     background:linear-gradient(to bottom,
 rgb(12, 12, 12),rgba(32, 42, 42));
     height: 40px;
     padding-top:1%;
     padding-bottom: 8px;
 }
-#bottom-bar{
+.bottom-bar{
     display:inline-flexbox;
      background:linear-gradient(to top,
 rgb(12, 12, 12),rgba(32, 42, 42));
@@ -75,7 +82,6 @@ h2{
     text-align:left;
     margin-left:10%;
 }
-
 #post-date{
     color:rgb(120, 120, 120);
     font-size: 80%;
@@ -90,9 +96,26 @@ h2{
     border:8px groove rgba(15, 28, 26,.3);
     color: rgb(160, 160, 160);
     font-family:'Courier New';
-    font-size:130%;
+    font-size:100%;
     line-height: 150%;
     margin:5%;
     margin-top: 2%;
+     margin-bottom: 2%;
     padding:3%;
 }
+#footer-text {
+    color:rgb(180,180,180);
+    font-family:'Courier New';
+    text-align: center;
+    display: inline-flexbox;
+    margin-top: -2%;
+    padding-bottom: 3%;
+    }
+#footer-text p{
+    padding:1.5%; 
+    display: inline;
+    font-size:120%;
+    }
+#footer-text em{
+    font-size:70%;
+    }
