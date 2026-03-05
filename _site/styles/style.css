@@ -1,0 +1,98 @@
+body{
+  background:rgb(12, 12, 12);
+}
+#logo{
+    font-size:160%;
+    height:60px;
+}
+h1{
+    text-shadow:
+-15px 0 5px rgba(0, 100, 100, .8),
+-21px 0 5px rgba(40, 120, 0, .8),
+-28px 0 5px rgba(130, 150, 0, .8);
+    color: rgb(180, 180, 180);
+    letter-spacing: 2px;
+    font-size:160%;
+    font-family:'Courier New';
+    margin-left: 6%;
+    padding-top: 1%;
+}
+#top-bar{
+    background:linear-gradient(to bottom,
+rgb(12, 12, 12),rgba(32, 42, 42));
+    height: 40px;
+    padding-top:1%;
+    padding-bottom: 8px;
+}
+#bottom-bar{
+    display:inline-flexbox;
+     background:linear-gradient(to top,
+rgb(12, 12, 12),rgba(32, 42, 42));
+    height: 60px;
+    padding-top: 8px;
+}
+h3{
+    color: rgba(180,200,0,.8);
+    letter-spacing: 1px;
+    font-size:100%;
+    font-style: italic;
+    font-family:'Courier New';
+    text-align: left;
+    display: inline-flexbox;
+    margin-left: 11%;
+    margin-bottom: -1%;
+}
+#menu{
+    text-align: right;
+    display:inline-flexbox;
+    margin-right:2%
+}
+ul{
+    list-style-type:none;
+    display: inline;
+    text-align:right;
+}
+li {
+    display:inline-flex;
+    padding-left:1%;
+    color:rgb(220, 220, 220);
+    font-family:'Courier New';
+}
+li a{
+    color:rgb(220, 220, 220);
+    font-size: 90%;
+    font-family:'Courier New';
+}
+#heading{
+    display:inline-flexbox;
+    padding-top: 8px;
+}
+h2{
+    color:rgb(93, 133, 86);
+    font-size: 140%;
+    font-family:'Courier New';
+    display:inline;
+    text-align:left;
+    margin-left:10%;
+}
+
+#post-date{
+    color:rgb(120, 120, 120);
+    font-size: 80%;
+    font-family:'Courier New';
+    display:inline-flexbox;
+    text-align:right;
+    margin-right:16%;
+    margin-top: -30px;
+}
+#content{
+    background-color: rgb(15, 28, 26);
+    border:8px groove rgba(15, 28, 26,.3);
+    color: rgb(160, 160, 160);
+    font-family:'Courier New';
+    font-size:130%;
+    line-height: 150%;
+    margin:5%;
+    margin-top: 2%;
+    padding:3%;
+}
