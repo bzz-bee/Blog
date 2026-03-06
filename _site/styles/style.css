@@ -4,20 +4,7 @@ body{
 #logo{
     font-size:160%;
     height:60px;
-    display: inline;
-}
-#logo p{
-    color: rgb(180, 180, 180);
-    padding-left: 3%;
-    padding-right:1%;
-    margin-top:1%;
-    display: inline-flex;
-    font-size:80%;
-}
-img{
-    margin-bottom:-50px;
-    margin-left:10%;
-    transform: scaleX(-1);
+    display: inline-flexbox;
 }
 h1{
     text-shadow:
@@ -31,6 +18,37 @@ h1{
     margin-left: 6%;
     margin-bottom: -4px;
     display: inline-flex;
+}
+#stars{
+    display: inline-flex;
+    padding-left: 40px;
+    margin-top:-3px;
+}
+#stars p{
+    color: rgb(180, 180, 180);
+    font-size:80%;
+    padding-left: 10%;
+    padding-right:40px;
+    margin-top:-1%;
+    display: inline;
+    text-align: center;
+}
+h3{
+    color: rgba(200,200,0,.8);
+    letter-spacing: 1px;
+    font-size:90%;
+    font-style: italic;
+    font-family:'Courier New';
+    text-align: right;
+    display: inline-flexbox;
+    margin-right: 4%;
+    margin-bottom: -10px;
+    margin-top: 24px;
+}
+img{
+    margin-bottom:-40px;
+    margin-top: -4%;
+    margin-left:10%;
 }
 .top-bar{
     background:linear-gradient(to bottom,
@@ -50,23 +68,11 @@ rgb(12, 12, 12),rgba(25, 35, 35,.9));
     text-align: right;
     display:inline-flexbox;
     margin-bottom: -70px;
-    
-}
-h3{
-    color: rgba(200,200,0,.8);
-    letter-spacing: 1px;
-    font-size:100%;
-    font-style: italic;
-    font-family:'Courier New';
-    text-align: left;
-    display: inline-flexbox;
-    margin-left: 4%;
-    margin-bottom: -10px;
-    margin-top: -10px;
+    margin-left:200px,
 }
 ul{
     list-style-type:none;
-    display: inline-flexbox;
+    display:inline-flexbox;
     text-align:right;
     margin-right: 4%;
     margin-left: -10%;
