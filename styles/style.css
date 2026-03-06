@@ -8,56 +8,62 @@ body{
 }
 #logo p{
     color: rgb(180, 180, 180);
-    padding:4%; 
-    display: inline;
+    padding-left: 3%;
+    padding-right:1%;
+    margin-top:1%;
+    display: inline-flex;
     font-size:80%;
 }
 h1{
     text-shadow:
 -12px 0 5px rgba(0, 95, 112,.9),
--18px 0 5px rgba(0, 120, 10, .9),
--25px 0 5px rgba(130, 150, 0, .9);
+-18px 0 5px rgba(0, 140, 10, .9),
+-25px 0 5px rgba(150, 150, 0, .9);
     color: rgb(180, 180, 180);
     letter-spacing: 2px;
-    font-size:160%;
+    font-size:32px;
     font-family:'Courier New';
     margin-left: 6%;
     display: inline-flex;
 }
 .top-bar{
     background:linear-gradient(to bottom,
-rgb(12, 12, 12),rgba(32, 42, 42));
-    height: 40px;
-    padding-top:-1%;
-    padding-bottom: 1%;
+rgb(12, 12, 12),rgba(25, 35, 35,.9));
+    height: 60px;
+    margin-bottom: -2px;
+    margin-top: 1%;
 }
 .bottom-bar{
     display:inline-flexbox;
      background:linear-gradient(to top,
-rgb(12, 12, 12),rgba(32, 42, 42));
+rgb(12, 12, 12),rgba(25, 35, 35,.9));
     height: 60px;
-    margin-top: 0px;
+    margin-bottom: 1%;
+}
+#menu{
+    text-align: right;
+    display:inline-flexbox;
+    margin-bottom: -70px;
+    
 }
 h3{
-    color: rgba(180,200,0,.8);
+    color: rgba(200,200,0,.8);
     letter-spacing: 1px;
     font-size:100%;
     font-style: italic;
     font-family:'Courier New';
     text-align: left;
-    display: inline-flex;
-    padding-right:25%;
-}
-#menu{
-    text-align: right;
-    display:inline;
-    margin-right:2%;
-    padding-left:10%;
+    display: inline-flexbox;
+    margin-left: 4%;
+    margin-bottom: -10px;
+    margin-top: -10px;
 }
 ul{
     list-style-type:none;
-    display: inline;
+    display: inline-flexbox;
     text-align:right;
+    margin-right: 4%;
+    margin-left: -10%;
 }
 li {
     display:inline-flex;
@@ -92,14 +98,14 @@ h2{
 }
 #content{
     background-color: rgb(15, 28, 26);
-    border:8px groove rgba(15, 28, 26,.3);
+    border:8px ridge rgba(15, 28, 26,.3);
     color: rgb(160, 160, 160);
     font-family:'Courier New';
     font-size:100%;
     line-height: 150%;
     margin:5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 3%;
     padding:3%;
 }
 #footer-text {
@@ -107,13 +113,13 @@ h2{
     font-family:'Courier New';
     text-align: center;
     display: inline-flexbox;
-    
     }
 #footer-text p{
-    padding:1.5%; 
+    padding-left:1%;
+    padding-right:1%;  
     display: inline-flex;
     font-size:100%;
     }
 #footer-text em{
-    font-size:70%;
+    font-size:80%;
     }
